@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <!--Navbar-->
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#my.hobbies">My Hobbies</a>
+        <a href="#guessing.game">Guessing Game</a>
+        <a href="#my.future.plans">My Future Plans</a>
+      </nav>
+
+      <!-- Header Section -->
+      <header class="header" id="home">
+        <h3 class="header-content">Hey there, I'm</h3>
+        <h1 class="name">Laian Mahmoud</h1>
+        <h3 class="header-content">
+          a computer science student studying at An-Najah National University.
+        </h3>
+        <h2>Welcome to my website!</h2>
+      </header>
+
+      <!-- My Hobbies Section -->
+      <section class="hobbies" id="my.hobbies">
+        <h1 class="hobbies-title">My Hobbies</h1>
+
+        <ul class="hobbies-list">
+          <li class="list-item">
+            <p>
+              <a
+                href="https://en.wikipedia.org/wiki/Painting"
+                target="_blank"
+                class="list-item-title"
+                >Painting:</a
+              >
+              I love drawing sketches to get ideas out of my mind.
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Painting" target="_blank">
+              <img src="./images/painting.png" alt="painting"
+            /></a>
+          </li>
+          <li class="list-item">
+            <p>
+              <a
+                href="https://en.wikipedia.org/wiki/Gamer"
+                target="_blank"
+                class="list-item-title"
+                >Playing Video Games:</a
+              >
+              It's my favorite way of wasting time.
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Gamer" target="_blank">
+              <img src="./images/videogames.png" alt="videogames"
+            /></a>
+          </li>
+          <li class="list-item">
+            <p>
+              <a
+                href="https://en.wikipedia.org/wiki/Chess"
+                target="_blank"
+                class="list-item-title"
+                >Playing Chess:</a
+              >
+              I'm the chess master in my family!
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Chess" target="_blank"
+              ><img src="./images/chess.png" alt="chess"
+            /></a>
+          </li>
+        </ul>
+      </section>
+      <!-- Guessing Game Section -->
+      <section>
+        <section class="hobby-guess-form" id="guessing.game">
+          <h1 class="hobby-guess-title">Guess My Favorite Hobby!</h1>
+          <form class="hobby-form">
+            <h2 class="hobby-guess-subtitle">
+              What do you think my favorite hobby is?
+            </h2>
+            <input type="text" placeholder="Type here..." name="hobby-guess" />
+            <button class="hobby-button" type="submit">Send</button>
+          </form>
+        </section>
+
+        <!-- Future Plans Section -->
+        <section class="future-plans" id="my.future.plans">
+          <h1 class="future-plans-title">My Future Plans</h1>
+          <p class="future-plans-text">
+            I want to start my career by working as a trainee, where I can put
+            my skills into practice. I’m excited to grow and improve through
+            this so that after building my skills, I can to join a good company.
+          </p>
+          <p class="future-plans-text">
+            If you want to check one of my previous projects, feel free to
+            <a
+              href="https://github.com/laianmahmoud11/first-assignment"
+              target="_blank"
+              >check it here</a
+            >.
+          </p>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
